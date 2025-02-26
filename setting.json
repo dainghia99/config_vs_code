@@ -66,5 +66,8 @@
   "glassit.alpha": 230,
   "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
   "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
-  "workbench.preferredLightColorTheme": "Default Dark+"
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+       "gitDecoration.modifiedResourceForeground": "#00FF00" // Màu xanh lá
+   }
 }
