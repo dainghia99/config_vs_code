@@ -69,5 +69,10 @@
   "workbench.preferredLightColorTheme": "Default Dark+",
   "workbench.colorCustomizations": {
        "gitDecoration.modifiedResourceForeground": "#00FF00" // Màu xanh lá
-   }
+   },
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-b>": false
+  }
 }
