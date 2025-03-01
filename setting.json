@@ -70,9 +70,37 @@
   "workbench.colorCustomizations": {
        "gitDecoration.modifiedResourceForeground": "#00FF00" // Màu xanh lá
    },
-  "vim.handleKeys": {
+   "vim.handleKeys": {
     "<C-c>": false,
     "<C-v>": false,
-    "<C-b>": false
+    "<C-b>": false,
+    "<C-x>": false,
+    "<C-a>": false,
+    "<C-z>": false,
+    "<C-y>": false,
+    "<C-w>": false,
+    "<C-n>": false,
+    "<C-p>": false,
+    "<C-s>": false,
+    "<C-q>": false,
+    "<C-l>": false,
+    "<C-f>": false,
+    "<C-r>": false,
+    "<C-t>": false,
+    "<C-u>": false,
+    "<C-d>": false,
+    "<C-e>": false,
+    "<C-g>": false,
+    "<C-h>": false,
+    "<C-i>": false,
+    "<C-j>": false,
+    "<C-k>": false,
+    "<C-m>": false,
+    "<A-S>": false,
+    "<A-Space>": false,
+    "<A-Shift>": false,
+    "<A-Shift-Down>": false,
+    "<A-Shift-Up>": false,
+    "<C-Shift-l>": false
   }
 }
