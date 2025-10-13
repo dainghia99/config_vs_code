@@ -1,5 +1,8 @@
-// bits/stdc++.h for MSYS2 + GCC on Windows
-// Compatible header collection inspired by GCC's version
+// bits/stdc++.h - Universal C++ header collection for GCC (MSYS2 compatible)
+// Based on GNU libstdc++ source structure.
+// Updated for GCC 15.2.0, supporting up to C++20.
+//
+// License: Compatible wrapper for competitive programming.
 
 #pragma once
 
@@ -23,7 +26,7 @@
 #include <cwchar>
 #include <cwctype>
 
-// C++ headers
+// C++98/03 standard headers
 #include <algorithm>
 #include <bitset>
 #include <complex>
@@ -57,11 +60,10 @@
 #include <valarray>
 #include <vector>
 
-// C++11–C++20 extensions
+// C++11 extensions
 #include <array>
 #include <atomic>
 #include <chrono>
-#include <codecvt>
 #include <condition_variable>
 #include <forward_list>
 #include <future>
@@ -78,4 +80,28 @@
 #include <unordered_map>
 #include <unordered_set>
 
+// C++14/17 additions
+#include <shared_mutex>
+#include <any>
+#include <optional>
+#include <variant>
+#include <memory_resource>
+#include <string_view>
+#include <filesystem>
+
+// C++20 additions
+#include <bit>
+#include <compare>
+#include <concepts>
+#include <coroutine>
+#include <numbers>
+#include <ranges>
+#include <span>
+#include <stop_token>
+#include <syncstream>
+#include <version>
+#include <format>
+#include <source_location>
+
+// Done
 using namespace std;
