@@ -1,0 +1,26 @@
+{
+    "Competitive Programming Template": {
+        "prefix": "!cp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "#define int long long",
+            "#define fast_io ios::sync_with_stdio(false); cin.tie(nullptr);",
+            "",
+            "void solve() {",
+            "    $0",
+            "}",
+            "",
+            "int32_t main() {",
+            "    fast_io;",
+            "    int t; cin >> t;",
+            "    while (t--) {",
+            "        solve();",
+            "    }",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Template chuẩn cho lập trình thi đấu C++ (Codeforces, AtCoder, VNOI...)"
+    }
+}
