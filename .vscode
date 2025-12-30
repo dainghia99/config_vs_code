@@ -1,0 +1,25 @@
+# .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++20 (WSL)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=gnu++20",
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
